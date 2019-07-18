@@ -61,6 +61,15 @@ function test(value, ...rest)
   - js 문법과 개념 미숙으로 큰 로직은 생각했지만 접근 방법을 고려하지 못함!
   - array 함수의 foreach(), reduce() 함수를 사용 하면 접근 할 수 있음
 
+```js 
+(function countStr(list) {
+    list.forEach(obj => {
+        if (obj.type === s) result.push(obj.name);
+        if (obj.childnode) countStr(obj.childnode);
+    })
+}(list));
+```
+
 - **prototype 에 대한 개념**
   - Array.prototype.NAME 은 배열에 새로운 속성을 정의할 수 있음
 
