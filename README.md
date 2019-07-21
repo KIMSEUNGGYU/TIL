@@ -135,3 +135,16 @@ for(let i=0; i<3; i++) {
 number -= number % 2
 number /= 2
 ```
+
+#### 20190720
+- js 에서 변수에 대해 (글 작성 중)  
+    1. 동적 타이핑  
+    2. 변수 호이스팅 
+- js 데이터 타입  
+    - 원시 타입
+        - 변경이 불가능한 값 (값에 의한 전달)
+        - boolean, null, undefiend, number, string, symbol
+    - 객체 타입
+        - object 
+#### 20190721
+
